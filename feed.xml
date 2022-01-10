@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-01-10T01:23:40+00:00</updated><id>/feed.xml</id><title type="html">Ahmed’s Land</title><subtitle>&lt; Insert your desired greeting &gt;, I'm Ahmed, a 2nd-year Software Engineering student @ McMaster University in Hamilton. I spend much of my time outside of school learning and experimenting with code.
+  This site will be host to the scattered collection of projects and/or learning materials that I create.</subtitle><entry><title type="html">Blog post test</title><link href="/2022/01/09/test-blog.html" rel="alternate" type="text/html" title="Blog post test" /><published>2022-01-09T00:00:00+00:00</published><updated>2022-01-09T00:00:00+00:00</updated><id>/2022/01/09/test-blog</id><content type="html" xml:base="/2022/01/09/test-blog.html"><![CDATA[<h1 id="motivation">Motivation</h1>
+
+<blockquote>
+  <p>This is a quote</p>
+</blockquote>
+
+<p>This is normal text</p>
+
+<p>This is an attempt at using MathJAX: $e^x = \sum_{i = 0}^{\infty}{\frac{x^i}{i!}}$.</p>
+
+<ol>
+  <li>The series above is very cool</li>
+  <li>Wow, I can use MathJAX</li>
+  <li>Wow again, I can make an enumerated list</li>
+</ol>
+
+<p>More text yada yada</p>
+
+<h1 id="nice-header">Nice header</h1>
+
+<p>Describing what this header section will discuss</p>
+
+<ul>
+  <li><a href="https://github.com/">Github</a> A link to github, clickable and also colour coded red, this text is green!</li>
+</ul>
+
+<h1 id="some-more-header-testing">Some more header testing</h1>
+
+<p>This is a code block, basically gibberish but it could be cool in the future :).</p>
+
+<p>This is a fun iPy script that’ll run a nice soothing song that is totally unrelated to the song name in the link</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Audio</span>
+
+<span class="n">sound_src</span> <span class="o">=</span> <span class="s">"https://www.cjoint.com/doc/16_09/FIsxS52QXY7_Rick-Astley---Never-Gonna-Give-You-Up.mp3"</span>
+
+<span class="n">Audio</span><span class="p">(</span><span class="n">sound_src</span><span class="p">,</span> <span class="n">autoplay</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+<h1 id="uno-mas-header">Uno mas header</h1>
+
+<p>This is some text, and suddenly, there is a link! https://ahmedalh7876.github.io/.</p>
+
+<p>Here’s a picture too</p>
+
+<p><img src="/public/media/20201014_103319.jpg" alt="nature_pic" /></p>]]></content><author><name></name></author><category term="blog" /><category term="test" /><summary type="html"><![CDATA[I am testing this blog post format]]></summary></entry></feed>
