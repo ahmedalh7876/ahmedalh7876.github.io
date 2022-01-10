@@ -1,58 +1,38 @@
-title: Ahmed's Land
+title: Ahmed's Bold Creations # ABC acronym
+url: https://ahmedalh7876.github.io
+author: Ahmed Al-Hayali
 email: awalhialy@yahoo.com
-description: >- # this means to ignore newlines until "baseurl:"
-      < Insert your desired greeting >, I'm Ahmed, a 2nd-year Software Engineering student @ McMaster University in Hamilton. I spend much of my time outside of school learning and experimenting with code.
-        This site will be host to the scattered collection of projects and/or learning materials that I create.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ahmedalh7876
+description: > # this means to ignore newlines until "show_exerpts:"
+Welcome to Ahmed's Bold Creations (ABC, I'm not too creative). I'm Ahmed, a 2nd-year Software Engineering
+student @ McMaster University in Hamilton. This site will be host to the scattered collection of projects
+and/or learning materials that I create. Enjoy the gallery. 
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+#  disqus:
+#    shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://github.com/bitbrain
+      icon: github-square
+      color: yellow
 
 # Build settings
-# theme: jekyll-dash
-# plugins:
-#   - jekyll-feed
-#
-#   # required by disqus to display comments
-#   # url: https://ahmedalh7876.github.io
-#
-#   # jekyll-paginate
-#   paginate: 5
-#   # paginate_path: "/blog/page:num/"
-#
-#   # jekyll-tagging (optional)
-#   tag_permalink_style: pretty
-#   tag_page_layout: tag_page
-#   tag_page_dir: tag
-#
-#   dash:
-#     # the way how dates should be displayed
-#       date_format: "%b %-d, %Y"
-#
-#         # the animation speed of the post scroll-in effect
-#           animation_speed: 50
-#
-#             # wether to enable Right-to-Left support or not
-#               rtl: true
-#
-#                 # Replaces the default avatar provider (gravatar)
-#                   #avatar_source: github
-#                     #github_username: bitbrain
-#                       #avatar_source: local
-#                         #avatar_path: /assets/avatar.png
-#
-#                           # generate social links in footer
-#                             # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
-#                               social_links:
-#                                   - url: https://twitter.com/bitbrain_
-#                                         icon: twitter-square
-#                                               color: cyan
-#                                                   - url: https://bitbrain.itch.io
-#                                                         icon: itch-io
-#                                                               color: red
-#                                                                   - url: https://github.com/bitbrain
-#                                                                         icon: github-square
-#                                                                               color: purple
-#                                                                                 
-#                                                                                   # wether the author box should be displayed or not
-#                                                                                     show_author: true
-#
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
